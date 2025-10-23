@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { use } from 'react';
 import navIcon from '../../assets/cat-8553498_1280.jpg'
 import { NavLink } from 'react-router';
 import { FaUserSecret } from 'react-icons/fa';
+import { AuthContext } from '../../Provider/AuthProvider';
 
 const Navbar = () => {
+    const {user} = use(AuthContext)
     return (
                <div className='flex justify-between  my-4 max-w-[1350px] mx-auto'>
                     <div className='flex items-center gap-2'>
@@ -11,7 +13,9 @@ const Navbar = () => {
                         <h3 className='text-lg font-semibold text-green-700'>Pet Care</h3>
                     </div>
         
-        
+                    <div className='text-center pt-5'>
+                        {user && user.email}
+                    </div>
                     <div className='flex gap-10 items-center'>
                         <NavLink  className="font-bold text-blue-700  ">Home</NavLink>
                         <NavLink to={"/service"} className="font-bold text-blue-700  ">Services</NavLink>
