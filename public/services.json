@@ -1,0 +1,46 @@
+
+
+[
+  {
+    "serviceId": 1,
+    "serviceName": "Winter Coat Fitting for Dogs",
+    "providerName": "PawCare Studio",
+    "providerEmail": "info@pawcare.com",
+    "price": 25,
+    "rating": 4.9,
+    "slotsAvailable": 4,
+    "description": "Custom coat fitting and warm outfit options to keep your dog comfortable in the cold.",
+    "image": "https://www.thevetshed.com.au/assets/full/STC_TMnavy.webp?20250528062750",
+    "category": "Clothing"
+  },
+  {
+    "serviceId": 2,
+    "serviceName": "Winter Grooming & Paw Treatment",
+    "providerName": "CozyPets Grooming",
+    "providerEmail": "hello@cozypets.com",
+    "price": 30,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Professional grooming with moisturizing paw balm and winter-safe shampoo.",
+    "image": "https://cdn.shopify.com/s/files/1/0565/8021/0861/t/617/assets/img-8-6-1703995215308.jpg?v=1703995215",
+    "category": "Grooming"
+  },
+  {
+    "serviceId": 3,
+    "serviceName": "Warm Bedding Setup",
+    "providerName": "SnugglePets",
+    "providerEmail": "contact@snugglepets.com",
+    "price": 15,
+    "rating": 4.7,
+    "slotsAvailable": 5,
+    "description": "Comfy winter bedding arrangement for pets to keep them warm and cozy indoors.",
+    "image": "https://funnyfuzzy.com/cdn/shop/files/WarmFlannelDetachableSemi-EnclosedLargeDogTent_yythk_11.jpg?v=1714443098&width=800",
+    "category": "Comfort"
+  }
+]
+
+
+  
+
+
+
