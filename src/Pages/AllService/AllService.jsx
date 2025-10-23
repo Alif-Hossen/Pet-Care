@@ -44,7 +44,7 @@ const AllService = ({ data }) => {
 
                         <NavLink to='/bookNow'>
                             <button className='btn btn-primary w-[140px] rounded-2xl'>
-                                Book Now
+                                Book Service
                             </button>
                         </NavLink>
                     </div>
