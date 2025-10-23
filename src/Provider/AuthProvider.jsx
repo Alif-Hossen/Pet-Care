@@ -1,7 +1,7 @@
 import { createContext, useEffect, useState } from "react";
 import app from "../Firebase/Firebase.config";
 export const AuthContext = createContext();
-import { createUserWithEmailAndPassword, getAuth, onAuthStateChanged } from "firebase/auth";
+import { createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signOut } from "firebase/auth";
 
 const auth = getAuth(app);
 
@@ -9,25 +9,40 @@ const AuthProvider = ({ children }) => {
     const [user, setUser] = useState(null);
     console.log(user);
 
-
+    // CREATE USER ->
     const createUser = (email, password) => {
         return createUserWithEmailAndPassword(auth, email, password);
 
     };
 
+    // FOR SIGN IN ->
+    const signIn = (email, password) => {
+        return signInWithEmailAndPassword(auth, email, password)
+    }
+
+    // FOR LOGOUT -> 
+    const logOUt = () => {
+        return signOut(auth);
+    }
+
+    // FOR OBSERVER ->
     useEffect(() => {
         const unSubscribe = onAuthStateChanged(auth, (currentUser) => {
             setUser(currentUser);
         });
-        return() => {
+        return () => {
             unSubscribe();
         }
     }, [])
 
+
+    // FOR SHARE DATA
     const authData = {
         user,
         setUser,
         createUser,
+        logOUt,
+        signIn,
     };
 
     return <AuthContext value={authData}>
