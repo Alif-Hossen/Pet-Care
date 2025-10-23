@@ -1,52 +1,29 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import ServiceDetailsPage from "../ServiceDetailsPage/ServiceDetailsPage";
 
 const CardDetails = () => {
 
-    const { id } = useParams();
-    const cardId = parseInt(id);
+
 
     const data = useLoaderData();
-    const singleCard = data.find(card => card.id === cardId);
+    const { id } = useParams();
+    const [card, setCard] = useState({});
+    console.log(data, id, card);
 
-    const { image } = singleCard
 
+    useEffect(() => {
+        const CardDetails = data.find((singleCard) => singleCard.id == id);
+        setCard(CardDetails);
+    }, [data, id])
 
     return (
-        <>
-            <img src={image} alt="" />
-        </>
+        <div>
+            <h2>emon hoy kno?</h2>
+            <ServiceDetailsPage card={card} ></ServiceDetailsPage>
+        </div>
+
     );
 };
 
 export default CardDetails;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

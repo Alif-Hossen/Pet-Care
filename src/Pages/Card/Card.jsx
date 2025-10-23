@@ -12,9 +12,6 @@ const Card = ({ data }) => {
                         alt={"service.serviceName"}
                         className="w-full h-56 object-cover"
                     />
-                    {/* <span className="absolute top-3 left-3 bg-orange-500 text-white text-xs px-3 py-1 rounded-full shadow-md">
-          {service.category}
-        </span> */}
                 </div>
 
                 {/* Card Content */}
@@ -33,9 +30,15 @@ const Card = ({ data }) => {
                     </div>
 
                     {/* Button */}
-                    <button className="w-full bg-orange-500 hover:bg-orange-600 text-white py-2 rounded-xl font-medium transition-all duration-300 shadow-md">
-                        Book Now
-                    </button>
+                    <div>
+                        <button className="w-full bg-orange-500 hover:bg-orange-600 text-white py-2 rounded-xl font-medium transition-all duration-300 shadow-md">
+                            View Details
+                        </button>
+                        <button>
+
+                        </button>
+                    </div>
+
                 </div>
             </div>
         </div>

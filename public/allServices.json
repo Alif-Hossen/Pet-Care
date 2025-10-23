@@ -9,7 +9,7 @@
 
 [
   {
-    "serviceId": 1,
+    "id": 1,
     "serviceName": "Winter Coat Fitting for Dogs",
     "providerName": "PawCare Studio",
     "providerEmail": "info@pawcare.com",
@@ -21,7 +21,7 @@
     "category": "Clothing"
   },
   {
-    "serviceId": 2,
+    "id": 2,
     "serviceName": "Winter Grooming & Paw Treatment",
     "providerName": "CozyPets Grooming",
     "providerEmail": "hello@cozypets.com",
@@ -33,7 +33,7 @@
     "category": "Grooming"
   },
   {
-    "serviceId": 3,
+    "id": 3,
     "serviceName": "Warm Bedding Setup",
     "providerName": "SnugglePets",
     "providerEmail": "contact@snugglepets.com",
@@ -45,7 +45,7 @@
     "category": "Comfort"
   },
   {
-    "serviceId": 4,
+    "id": 4,
     "serviceName": "Indoor Play & Exercise",
     "providerName": "Happy Paws Club",
     "providerEmail": "support@happypaws.com",
@@ -57,7 +57,7 @@
     "category": "Activity"
   },
   {
-    "serviceId": 5,
+    "id": 5,
     "serviceName": "Winter Health Checkup",
     "providerName": "VetCare Clinic",
     "providerEmail": "appointments@vetcare.com",
@@ -69,7 +69,7 @@
     "category": "Health"
   },
   {
-    "serviceId": 6,
+    "id": 6,
     "serviceName": "Pet Winter Training Classes",
     "providerName": "SmartPaws Academy",
     "providerEmail": "training@smartpaws.com",

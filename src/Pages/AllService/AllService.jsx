@@ -5,7 +5,7 @@ import { NavLink } from 'react-router';
 const AllService = ({ data }) => {
     const { id, image, serviceName, rating, price } = data;
 
-   
+
 
     return (
         <div>
@@ -35,11 +35,20 @@ const AllService = ({ data }) => {
                         <span className="text-orange-600 font-bold text-lg">${price}</span>
                     </div>
 
-                    <NavLink to={`/cardDetails/${id}`}>
-                        <button  className="w-full bg-orange-500 hover:bg-orange-600 text-white py-2 rounded-xl font-medium transition-all duration-300 shadow-md">
-                            View Details
-                        </button>
-                    </NavLink>
+                    <div className='flex justify-between'>
+                        <NavLink to={`/cardDetails/${id}`}>
+                            <button className="w-[140px]  bg-orange-500 hover:bg-orange-600 text-white py-2 rounded-2xl font-medium transition-all duration-300 shadow-md">
+                                View Details
+                            </button>
+                        </NavLink>
+
+                        <NavLink to='/bookNow'>
+                            <button className='btn btn-primary w-[140px] rounded-2xl'>
+                                Book Now
+                            </button>
+                        </NavLink>
+                    </div>
+
 
 
 

@@ -6,6 +6,7 @@ import Service from "../Pages/Service/Service";
 import CardDetails from "../Pages/CardDetails/CardDetails";
 import Login from "../Pages/Login/Login";
 import Register from "../Pages/Register/Register";
+import BookNow from "../Pages/BookNow/BookNow";
 
 const router = createBrowserRouter(
     [
@@ -31,11 +32,11 @@ const router = createBrowserRouter(
                     },
                     element: <Service></Service>
                 },
-                // {
-                //     path: '/cardDetails/:id',
-                //     loader:  () =>  fetch('/allServices.json'),
-                //     element: <CardDetails />
-                // }
+                {
+                    path: '/cardDetails/:id',
+                    element: <CardDetails />,
+                    loader:  ()=>  fetch('/allServices.json'),
+                },
                 {
                     path: '/login',
                     element: <Login></Login>
@@ -43,6 +44,10 @@ const router = createBrowserRouter(
                 {
                     path: '/register',
                     element: <Register></Register>
+                },
+                {
+                    path: '/bookNow',
+                    element: <BookNow></BookNow>
                 }
 
             ]
