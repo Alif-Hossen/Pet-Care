@@ -5,7 +5,7 @@
     "title": "Chief Veterinarian",
     "specialty": "Small Animal Internal Medicine",
     "experience": "12 Years",
-    "imageUrl": "/images/vet_amina.jpg", 
+    "imageUrl": "https://img.freepik.com/free-photo/woman-doctor-wearing-lab-coat-with-stethoscope-isolated_1303-29791.jpg", 
     "bioSummary": "Amina specializes in complex internal cases and has a passion for feline health."
   },
   {
@@ -14,7 +14,7 @@
     "title": "Senior Surgeon",
     "specialty": "Orthopedic and Soft Tissue Surgery",
     "experience": "18 Years",
-    "imageUrl": "/images/vet_fahim.jpg",
+    "imageUrl": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
     "bioSummary": "Fahim leads our surgical team, providing expert care for injury and reconstructive needs."
   },
   {
@@ -23,7 +23,7 @@
     "title": "Exotic Pet Specialist",
     "specialty": "Birds, Reptiles, and Pocket Pets",
     "experience": "7 Years",
-    "imageUrl": "/images/vet_sanjida.jpg",
+    "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=1000",
     "bioSummary": "Sanjida has a unique focus on non-traditional pets, ensuring their specialized welfare."
   },
   {
@@ -32,7 +32,7 @@
     "title": "Preventative Care Lead",
     "specialty": "Routine Care and Vaccinations",
     "experience": "10 Years",
-    "imageUrl": "/images/vet_kamal.jpg",
+    "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=1000",
     "bioSummary": "Kamal is dedicated to proactive health management, emphasizing wellness and nutrition."
   }
 ]

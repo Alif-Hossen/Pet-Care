@@ -9,6 +9,7 @@ import Register from "../Pages/Register/Register";
 import BookNow from "../Pages/BookNow/BookNow";
 import PrivateRoute from "../Provider/PrivateRoute";
 import MyProfile from "../Pages/MyProfile/MyProfile";
+import Vets from "../Pages/Vets/Vets";
 
 const router = createBrowserRouter(
     [
@@ -19,13 +20,28 @@ const router = createBrowserRouter(
             children: [
                 {
                     index: true,
+                    // loader: async () => {
+                    //     const res = await fetch('services.json');
+                    //     return res.json();
+                    // },
                     loader: async () => {
-                        const res = await fetch('services.json');
-                        return res.json();
+                        const services = await fetch('services.json').then(res => res.json());
+                        const vets = await fetch('vets.json').then(res => res.json());
+                        const care = await fetch('careTips.json').then(res => res.json());
+
+                        return { services, vets, care };
                     },
-                    path: '/',
                     element: <Home></Home>
                 },
+                // {
+                //     path: '/vets',
+                //     loader: async () => {
+                //         const res = await fetch('vets.json');
+                //         return res.json();
+                //     },
+                //     element: <Vets></Vets>
+
+                // },
                 {
                     path: '/service',
                     loader: async () => {
@@ -39,7 +55,7 @@ const router = createBrowserRouter(
                     element: <PrivateRoute>
                         <CardDetails />
                     </PrivateRoute>,
-                    loader:  ()=>  fetch('/allServices.json'),
+                    loader: () => fetch('/allServices.json'),
                 },
                 {
                     path: '/login',
@@ -55,7 +71,7 @@ const router = createBrowserRouter(
                 },
                 {
                     path: '/myProfile',
-                    element:<MyProfile></MyProfile>
+                    element: <MyProfile></MyProfile>
                 }
 
             ]

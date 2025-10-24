@@ -5,7 +5,7 @@ import { NavLink } from 'react-router';
 const Cards = ({ petData }) => {
     return (
         <div>
-            <h2 className='textStyle font-bold text-5xl py-10 text-center'>
+            <h2 className='textStyle font-bold md:text-5xl text-3xl py-10 text-center'>
                 Popular Winter Care Services
             </h2>
 
