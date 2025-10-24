@@ -7,6 +7,7 @@ import CardDetails from "../Pages/CardDetails/CardDetails";
 import Login from "../Pages/Login/Login";
 import Register from "../Pages/Register/Register";
 import BookNow from "../Pages/BookNow/BookNow";
+import PrivateRoute from "../Provider/PrivateRoute";
 
 const router = createBrowserRouter(
     [
@@ -34,7 +35,9 @@ const router = createBrowserRouter(
                 },
                 {
                     path: '/cardDetails/:id',
-                    element: <CardDetails />,
+                    element: <PrivateRoute>
+                        <CardDetails />
+                    </PrivateRoute>,
                     loader:  ()=>  fetch('/allServices.json'),
                 },
                 {

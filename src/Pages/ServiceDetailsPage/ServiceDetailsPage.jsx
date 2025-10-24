@@ -30,12 +30,27 @@ const ServiceDetailsPage = ({ card }) => {
                     <span className="text-orange-600 font-bold text-lg">${card.price}</span>
                 </div>
 
+                <div>
+                    <p className='text-center pb-4 font-semibold'>
+                        {card.description}
+                    </p>
+                </div>
+
                 {/* Button */}
-                <NavLink to='/bookNow'>
-                    <button className="w-full bg-orange-500 hover:bg-orange-600 text-white py-2 rounded-xl font-medium transition-all duration-300 shadow-md">
-                        Book Service
-                    </button>
-                </NavLink>
+                <div >
+                    {/* <NavLink to='/bookNow'>
+                        <button className="w-full bg-orange-500 hover:bg-orange-600 text-white py-2 rounded-xl font-medium transition-all duration-300 shadow-md">
+                            Book Service
+                        </button>
+                    </NavLink> */}
+
+                    <NavLink to='/bookNow'>
+                        <button className=' btn btn-primary w-full rounded-2xl'>
+                            Book Service
+                        </button>
+                    </NavLink>
+                </div>
+
             </div>
         </div>
     );

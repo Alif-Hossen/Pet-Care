@@ -19,7 +19,7 @@ const CardDetails = () => {
 
     return (
         <div>
-            <h2>emon hoy kno?</h2>
+            <h2 className="textStyle text-center text-3xl font-bold py-5">...Here Is Details About This Card...</h2>
             <ServiceDetailsPage card={card} ></ServiceDetailsPage>
         </div>
 
