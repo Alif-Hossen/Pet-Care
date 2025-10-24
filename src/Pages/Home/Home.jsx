@@ -3,17 +3,18 @@ import Banner from '../../Components/Banner/Banner';
 import Cards from '../Cards/Cards';
 import { useLoaderData } from 'react-router';
 import Vets from '../Vets/Vets';
+import Care from '../Care/Care';
 
 const Home = () => {
-    // const petData = useLoaderData();
-    const { services, vets } = useLoaderData();
+    const { services, vets, care } = useLoaderData();
 
-    // console.log(petData);
     return (
         <div>
             <Banner></Banner>
             <Cards petData={services}></Cards>
+            <Care careData={care}></Care>
             <Vets vetData={vets}></Vets>
+            
         </div>
     );
 };
