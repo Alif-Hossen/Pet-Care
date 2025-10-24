@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Keep Them Warm",
+    "tip": "Provide a warm, dry shelter and a cozy blanket to snuggle into.",
+    "iconName": "RiThermometerLine", 
+    "category": "Shelter & Comfort",
+    "colorClass": "badge-warning" 
+  },
+  {
+    "id": 2,
+    "title": "Hydration is Key",
+    "tip": "Check water bowls frequently to ensure water hasn't frozen and encourage them to drink.",
+    "iconName": "RiWaterFlashLine", 
+    "category": "Health",
+    "colorClass": "badge-info" 
+  },
+  {
+    "id": 3,
+    "title": "Paw Protection",
+    "tip": "Clean their paws after walks to remove ice, salt, or harsh chemicals.",
+    "iconName": "RiFootprintLine", 
+    "category": "Safety",
+    "colorClass": "badge-error" 
+  },
+  {
+    "id": 4,
+    "title": "Monitor Appetite",
+    "tip": "Pets may need more food in winter to maintain energy. Consult a vet if appetite drops.",
+    "iconName": "RiScalesLine", 
+    "category": "Diet & Nutrition",
+    "colorClass": "badge-success"
+  }
+]

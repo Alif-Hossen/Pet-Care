@@ -36,6 +36,18 @@
     "description": "Comfy winter bedding arrangement for pets to keep them warm and cozy indoors.",
     "image": "https://funnyfuzzy.com/cdn/shop/files/WarmFlannelDetachableSemi-EnclosedLargeDogTent_yythk_11.jpg?v=1714443098&width=800",
     "category": "Comfort"
+  },
+  {
+    "id": 4,
+    "serviceName": "Indoor Play & Exercise",
+    "providerName": "Happy Paws Club",
+    "providerEmail": "support@happypaws.com",
+    "price": 20,
+    "rating": 4.6,
+    "slotsAvailable": 6,
+    "description": "Indoor activity sessions to keep pets active during cold winter days.",
+    "image": "https://img-us.aosomcdn.com/thumbnail/100/n0/product/2024/06/28/vCKc3a1905cdb9f77.jpg",
+    "category": "Activity"
   }
 ]
 

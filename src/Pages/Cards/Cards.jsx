@@ -9,7 +9,7 @@ const Cards = ({ petData }) => {
                 Popular Winter Care Services
             </h2>
 
-            <div className='grid grid-cols-3 mb-10'>
+            <div className=' grid md:grid-cols-4 mb-10 gap-8 md:gap-0 md:ml-20 ml-14'>
                 {
                     petData.map(data => <Card key={data.id} data={data}></Card>)
                 }

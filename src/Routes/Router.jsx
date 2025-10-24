@@ -8,6 +8,7 @@ import Login from "../Pages/Login/Login";
 import Register from "../Pages/Register/Register";
 import BookNow from "../Pages/BookNow/BookNow";
 import PrivateRoute from "../Provider/PrivateRoute";
+import MyProfile from "../Pages/MyProfile/MyProfile";
 
 const router = createBrowserRouter(
     [
@@ -51,6 +52,10 @@ const router = createBrowserRouter(
                 {
                     path: '/bookNow',
                     element: <BookNow></BookNow>
+                },
+                {
+                    path: '/myProfile',
+                    element:<MyProfile></MyProfile>
                 }
 
             ]
