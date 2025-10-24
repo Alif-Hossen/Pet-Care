@@ -36,10 +36,11 @@ const Navbar = () => {
             <div className='flex gap-5 items-center'>
 
                 <div className=''>
-                    <FaUserSecret size={32} style={{}} />
+                    <img className='w-12 h-12 rounded-full' 
+                     src={`${user ? user.photoURL : <FaUserSecret size={32} />}`} alt="" />
                 </div>
                 {
-                    user ? <button onClick={handleLogOut} className="font-bold text-blue-700">Logout</button> :
+                    user ? <button onClick={handleLogOut} className="btn btn-primary font-bold text-white">Logout</button> :
                         <NavLink to={"/login"} className="font-bold text-blue-700">Login</NavLink>
                 }
 

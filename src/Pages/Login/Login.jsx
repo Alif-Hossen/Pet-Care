@@ -26,8 +26,9 @@ const Login = () => {
             })
             .catch((error) => {
                 const errorCode = error.code;
-                const errorMessage = error.Message;
-                alert(errorCode, errorMessage)
+                // const errorMessage = error.Message;
+                // alert(errorCode, errorMessage)
+                setError(errorCode);
             })
     }
 
@@ -51,6 +52,10 @@ const Login = () => {
                             <input name='password' type="password" className="input" placeholder="Password" required />
 
                             <div className='pt-2'><a className="link link-hover font-semibold ">Forgot password?</a></div>
+
+                            {
+                                error && <p className='text-red-800 text-center py-2'>{error}</p>
+                            }
 
                             <button type='submit' className="btn btn-neutral mt-4">Login</button>
 
