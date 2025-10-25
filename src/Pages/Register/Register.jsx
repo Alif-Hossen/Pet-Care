@@ -22,7 +22,6 @@ const Register = () => {
         const email = form.email.value;
         const password = form.password.value;
 
-        // ✅ Name Validation
         if (name.length < 5) {
             setNameError("Name should be at least 5 characters long!");
             return;
@@ -30,7 +29,6 @@ const Register = () => {
             setNameError("");
         }
 
-        // ✅ Password Validation
         if (!/[A-Z]/.test(password)) {
             setPasswordError("Password must contain at least one Uppercase letter!");
             return;
@@ -46,7 +44,6 @@ const Register = () => {
             setPasswordError("");
         }
 
-        // ✅ Firebase register + update profile
         createUser(email, password)
             .then(result => {
                 const user = result.user;
@@ -75,20 +72,16 @@ const Register = () => {
                 <form onSubmit={handleRegister} className="card-body">
                     <fieldset className="fieldset">
 
-                        {/* Name */}
                         <label className="label">Name</label>
                         <input name='name' type="text" className="input" placeholder="Name" required />
                         {nameError && <p className='text-xs text-error'>{nameError}</p>}
 
-                        {/* Photo URL */}
                         <label className="label">Photo URL</label>
                         <input name='photo' type="text" className="input" placeholder="Photo URL" />
 
-                        {/* Email */}
                         <label className="label">Email</label>
                         <input name='email' type="email" className="input" placeholder="Email" required />
 
-                        {/* Password + Eye toggle */}
                         <label className="label">Password</label>
                         <div className="relative">
                             <input

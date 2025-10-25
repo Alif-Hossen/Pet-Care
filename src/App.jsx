@@ -1,13 +1,17 @@
 
-import './App.css'
+import './App.css';
+import { Toaster } from 'react-hot-toast';
+import BookNow from './Pages/BookNow/BookNow';
 
 function App() {
-
   return (
     <>
-     <h2>Done</h2>
+      <Toaster position="top-right" reverseOrder={false} />
+      <BookNow />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
+
+
