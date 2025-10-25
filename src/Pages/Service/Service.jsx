@@ -4,7 +4,7 @@ import AllService from '../AllService/AllService';
 
 const Service = () => {
     const AllData = useLoaderData();
-    console.log(AllData);
+    // console.log(AllData);
     return (
         <div>
             <h1 className='textStyle font-bold text-5xl text-center py-5'>Popular Winter Care Services</h1>

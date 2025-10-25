@@ -11,6 +11,7 @@ import PrivateRoute from "../Provider/PrivateRoute";
 import MyProfile from "../Pages/MyProfile/MyProfile";
 import Vets from "../Pages/Vets/Vets";
 import ForgotPassword from "../Pages/ForgetPassword/ForgetPassword";
+import Loading from "../Pages/Loading/Loading";
 
 const router = createBrowserRouter(
     [
@@ -28,7 +29,8 @@ const router = createBrowserRouter(
 
                         return { services, vets, care };
                     },
-                    element: <Home></Home>
+                    element: <Home></Home>,
+                    hydrateFallbackElement: <Loading></Loading>
                 },
                 {
                     path: '/service',
@@ -36,7 +38,8 @@ const router = createBrowserRouter(
                         const result = await fetch('allServices.json');
                         return result.json();
                     },
-                    element: <Service></Service>
+                    element: <Service></Service>,
+                    hydrateFallbackElement: <Loading></Loading>
                 },
                 {
                     path: '/cardDetails/:id',
@@ -44,6 +47,7 @@ const router = createBrowserRouter(
                         <CardDetails />
                     </PrivateRoute>,
                     loader: () => fetch('/allServices.json'),
+                    hydrateFallbackElement: <Loading></Loading>
                 },
                 {
                     path: '/login',

@@ -11,6 +11,7 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
+            {import.meta.env.VITE_name}
             <Cards petData={services}></Cards>
             <Care careData={care}></Care>
             <Vets vetData={vets}></Vets>

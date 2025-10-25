@@ -15,14 +15,11 @@ const ServiceDetailsPage = ({ card }) => {
                 />
             </div>
 
-            {/* Card Content */}
             <div className="p-5">
-                {/* Service Name */}
                 <h2 className="text-xl font-semibold text-gray-800 mb-2 hover:text-orange-500 transition">
                     {card.serviceName}
                 </h2>
 
-                {/* Rating & Price */}
                 <div className="flex items-center justify-between mb-3">
                     <div className="flex items-center gap-1">
                         ⭐ <span className="text-gray-700 font-medium">{card.rating}</span>
@@ -36,7 +33,6 @@ const ServiceDetailsPage = ({ card }) => {
                     </p>
                 </div>
 
-                {/* Button */}
                 <div >
                     {/* <NavLink to='/bookNow'>
                         <button className="w-full bg-orange-500 hover:bg-orange-600 text-white py-2 rounded-xl font-medium transition-all duration-300 shadow-md">
