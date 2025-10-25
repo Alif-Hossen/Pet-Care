@@ -10,6 +10,7 @@ import BookNow from "../Pages/BookNow/BookNow";
 import PrivateRoute from "../Provider/PrivateRoute";
 import MyProfile from "../Pages/MyProfile/MyProfile";
 import Vets from "../Pages/Vets/Vets";
+import ForgotPassword from "../Pages/ForgetPassword/ForgetPassword";
 
 const router = createBrowserRouter(
     [
@@ -20,10 +21,6 @@ const router = createBrowserRouter(
             children: [
                 {
                     index: true,
-                    // loader: async () => {
-                    //     const res = await fetch('services.json');
-                    //     return res.json();
-                    // },
                     loader: async () => {
                         const services = await fetch('services.json').then(res => res.json());
                         const vets = await fetch('vets.json').then(res => res.json());
@@ -33,15 +30,6 @@ const router = createBrowserRouter(
                     },
                     element: <Home></Home>
                 },
-                // {
-                //     path: '/vets',
-                //     loader: async () => {
-                //         const res = await fetch('vets.json');
-                //         return res.json();
-                //     },
-                //     element: <Vets></Vets>
-
-                // },
                 {
                     path: '/service',
                     loader: async () => {
@@ -72,6 +60,10 @@ const router = createBrowserRouter(
                 {
                     path: '/myProfile',
                     element: <MyProfile></MyProfile>
+                },
+                {
+                    path:'/forgot-password',
+                    element:<ForgotPassword></ForgotPassword>
                 }
 
             ]
