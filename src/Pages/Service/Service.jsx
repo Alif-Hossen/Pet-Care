@@ -9,7 +9,7 @@ const Service = () => {
         <div>
             <h1 className='textStyle font-bold text-5xl text-center py-5'>Popular Winter Care Services</h1>
             
-            <div className='grid md:grid-cols-4   gap-x-8 mx-auto my-10 md:ml-40 ml-14'> 
+            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 xl:max-w-[1700px] xl:mx-auto lg:max-w-[1100px] lg:mx-auto sm:max-w-[800px] sm:mx-auto  my-20'> 
                 {
                     AllData.map(data => <AllService key={data.id} data={data}></AllService>)
                 }

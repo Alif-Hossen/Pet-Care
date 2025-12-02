@@ -28,7 +28,7 @@ const AllService = ({ data }) => {
                 </div>
 
                 <div>
-                    <button className='btn btn-outline rounded-4xl'><span className='font-bold text-orange-500'>Category : </span> <span className='text-black font-semibold'>{category}</span></button>
+                    <button className='btn  bg-white rounded-4xl hover:bg-gray-400'><span className='font-bold text-orange-500'>Category : </span> <span className='text-black font-bold'>{category}</span></button>
                 </div>
 
                 <NavLink to={`/cardDetails/${id}`}>
