@@ -5,7 +5,7 @@ import { NavLink } from 'react-router';
 const ServiceDetailsPage = ({ card }) => {
 
     return (
-        <div className="max-w-sm bg-white shadow-lg hover:shadow-2xl transition-all duration-300 rounded-2xl overflow-hidden border border-gray-100 md:my-10 md:ml-150 my-5 ml-14">
+        <div className="max-w-[600px] md:mx-auto mx-6 md:my-12 my-8 bg-white shadow-lg hover:shadow-2xl transition-all duration-300 rounded-2xl overflow-hidden border border-gray-100   ">
             {/* Image Section */}
             <div className="relative">
                 <img
@@ -27,18 +27,32 @@ const ServiceDetailsPage = ({ card }) => {
                     <span className="text-orange-600 font-bold text-lg">${card.price}</span>
                 </div>
 
-                <div>
+                <div className='font-bold flex justify-between'>
+
+                    <div>
+                        <h1 className='text-blue-500'>providerName</h1>
+                        <h2>{card.providerName}</h2>
+                    </div>
+                    <div>
+                        <h1 className='text-blue-500'>provider Email</h1>
+                        <h2>{card.providerEmail}</h2>
+                    </div>
+                    
+                </div>
+
+               
+
+                <div className='py-8'>
                     <p className='text-center pb-4 font-semibold'>
                         {card.description}
                     </p>
                 </div>
 
+                <div className='mb-4 btn bg-green-700 w-50% rounded-2xl font-bold text-white'>
+                    Category: {card.category}
+                </div>
+
                 <div >
-                    {/* <NavLink to='/bookNow'>
-                        <button className="w-full bg-orange-500 hover:bg-orange-600 text-white py-2 rounded-xl font-medium transition-all duration-300 shadow-md">
-                            Book Service
-                        </button>
-                    </NavLink> */}
 
                     <NavLink to='/bookNow'>
                         <button className=' btn btn-primary w-full rounded-2xl'>

@@ -8,11 +8,13 @@ const Service = () => {
     return (
         <div>
             <h1 className='textStyle font-bold text-5xl text-center py-5'>Popular Winter Care Services</h1>
-            <div className='grid md:grid-cols-3 gap-x-8 max-w-[1250px] mx-auto my-10 md:ml-40 ml-14'> 
+            
+            <div className='grid md:grid-cols-4   gap-x-8 mx-auto my-10 md:ml-40 ml-14'> 
                 {
                     AllData.map(data => <AllService key={data.id} data={data}></AllService>)
                 }
             </div>
+            
         </div>
     );
 };
