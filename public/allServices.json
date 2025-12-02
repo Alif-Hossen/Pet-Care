@@ -79,7 +79,176 @@
     "description": "Special winter training sessions to keep pets active, engaged, and healthy indoors.",
     "image": "https://dogtrainingelite.com/oak/files/images/dogs/dog-training-128.jpg",
     "category": "Training"
+  },
+  {
+    "id": 7,
+    "serviceName": "Heated Water Bowl Maintenance",
+    "providerName": "AquaWarm Solutions",
+    "providerEmail": "support@aquawarm.com",
+    "price": 10,
+    "rating": 4.5,
+    "slotsAvailable": 8,
+    "description": "Installation and regular check-up of heated water bowls to prevent freezing outdoors.",
+    "image": "https://images.unsplash.com/photo-1756915470352-57a8f98de997?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGRvZyUyMEhlYXRlZCUyMFdhdGVyJTIwQm93bCUyME1haW50ZW5hbmNlfGVufDB8fDB8fHww",
+    "category": "Equipment"
+  },
+  {
+    "id": 8,
+    "serviceName": "Joint Support Massage Therapy",
+    "providerName": "PetPhysio Wellness",
+    "providerEmail": "therapy@petphysio.com",
+    "price": 45,
+    "rating": 4.9,
+    "slotsAvailable": 3,
+    "description": "Specialized massage to ease joint stiffness common in cold weather, especially for older pets.",
+    "image": "https://images.unsplash.com/photo-1701368316784-8e139562c0cf?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRvZyUyRmNhdCUyMEpvaW50JTIwU3VwcG9ydCUyME1hc3NhZ2UlMjBUaGVyYXB5fGVufDB8fDB8fHww",
+    "category": "Health"
+  },
+  {
+    "id": 9,
+    "serviceName": "High-Calorie Winter Diet Plan",
+    "providerName": "Pawsitive Nutrition",
+    "providerEmail": "diet@pawsitivenutrition.com",
+    "price": 25,
+    "rating": 4.8,
+    "slotsAvailable": 5,
+    "description": "Customized meal plans to provide extra calories and nutrients needed for cold weather insulation.",
+    "image": "https://images.unsplash.com/photo-1584754286458-7e3c375719a7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGRvZyUyRmNhdCUyMEhpZ2gtQ2Fsb3JpZSUyMFdpbnRlciUyMERpZXQlMjBQbGFufGVufDB8fDB8fHww",
+    "category": "Nutrition"
+  },
+  {
+    "id": 10,
+    "serviceName": "Snow & Ice Boot Fitting",
+    "providerName": "WinterPaws Gear",
+    "providerEmail": "sales@winterpaws.com",
+    "price": 20,
+    "rating": 4.6,
+    "slotsAvailable": 7,
+    "description": "Professional fitting of protective boots to shield paws from salt and ice.",
+    "image": "https://images.unsplash.com/photo-1705751546537-f8275b58bdd2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fGRvZyUyRmNhdCUyMFNub3clMjAlMjYlMjBJY2UlMjBCb290JTIwRml0dGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Clothing"
+  },
+  {
+    "id": 11,
+    "serviceName": "Emergency Pet Shelter Setup",
+    "providerName": "SafeHaven Builders",
+    "providerEmail": "contact@safehaven.com",
+    "price": 50,
+    "rating": 4.7,
+    "slotsAvailable": 2,
+    "description": "Installation of temporary, insulated outdoor shelters for pets in case of extreme cold or power outages.",
+    "image": "https://plus.unsplash.com/premium_photo-1694822211417-e3535443d89d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZG9nJTJGY2F0JTIwRW1lcmdlbmN5JTIwUGV0JTIwU2hlbHRlciUyMFNldHVwfGVufDB8fDB8fHww",
+    "category": "Comfort"
+  },
+  {
+    "id": 12,
+    "serviceName": "Indoor Scent/Puzzle Games Coaching",
+    "providerName": "Mindful Paws Training",
+    "providerEmail": "games@mindfulpaws.com",
+    "price": 30,
+    "rating": 4.9,
+    "slotsAvailable": 4,
+    "description": "Training on engaging indoor scent and puzzle games to provide mental stimulation during winter.",
+    "image": "https://plus.unsplash.com/premium_photo-1668918112517-8ebe0f3eb1f4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDMyfHx8ZW58MHx8fHx8",
+    "category": "Activity"
+  },
+  {
+    "id": 13,
+    "serviceName": "Flea & Tick Prevention (Winter)",
+    "providerName": "PestControl Pet Pro",
+    "providerEmail": "care@pestcontrolpro.com",
+    "price": 22,
+    "rating": 4.5,
+    "slotsAvailable": 6,
+    "description": "Specialized winter prevention treatment for indoor flea and tick control.",
+    "image": "https://images.unsplash.com/photo-1611173622933-91942d394b04?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZG9nJTJGY2F0JTIwRmxlYSUyMCUyNiUyMFRpY2slMjBQcmV2ZW50aW9uJTIwKFdpbnRlcil8ZW58MHx8MHx8fDA%3D",
+    "category": "Health"
+  },
+  {
+    "id": 14,
+    "serviceName": "Moisture-Rich Coat Conditioning",
+    "providerName": "LuxeCoat Grooming",
+    "providerEmail": "service@luxecoat.com",
+    "price": 35,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Grooming treatment to combat dry, static winter coats with deep conditioning.",
+    "image": "https://images.unsplash.com/photo-1602937488950-3dbc2ff03d2d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNhdCUyME1vaXN0dXJlLVJpY2glMjBDb2F0JTIwQ29uZGl0aW9uaW5nfGVufDB8fDB8fHww",
+    "category": "Grooming"
+  },
+  {
+    "id": 15,
+    "serviceName": "Heated Pad/Mat Installation",
+    "providerName": "WarmSpot Comfort",
+    "providerEmail": "hello@warmspot.com",
+    "price": 28,
+    "rating": 4.7,
+    "slotsAvailable": 5,
+    "description": "Safe installation of thermostatically controlled heated pads for pet beds.",
+    "image": "https://images.unsplash.com/photo-1621682877540-edd7c9dae368?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZG9nJTIwSGVhdGVkJTIwUGFkJTJGTWF0JTIwSW5zdGFsbGF0aW9ufGVufDB8fDB8fHww",
+    "category": "Equipment"
+  },
+  {
+    "id": 16,
+    "serviceName": "Senior Pet Mobility Check",
+    "providerName": "GoldenYears Vet",
+    "providerEmail": "support@goldenyearsvets.com",
+    "price": 55,
+    "rating": 4.9,
+    "slotsAvailable": 2,
+    "description": "Detailed check-up and advice for senior pets whose arthritis may worsen in cold weather.",
+    "image": "https://images.unsplash.com/photo-1711458515187-6ebc4991b42d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNhdCUyMFNlbmlvciUyMFBldCUyME1vYmlsaXR5JTIwQ2hlY2t8ZW58MHx8MHx8fDA%3D",
+    "category": "Health"
+  },
+  {
+    "id": 17,
+    "serviceName": "Window Perch for Indoor Cats",
+    "providerName": "SunGazer Comfort",
+    "providerEmail": "perch@sungazer.com",
+    "price": 18,
+    "rating": 4.6,
+    "slotsAvailable": 6,
+    "description": "Installation of insulated window perches to allow cats safe, warm access to sunbeams.",
+    "image": "https://media.istockphoto.com/id/2167473662/photo/cat-lying-down-by-a-window-in-the-house.webp?a=1&b=1&s=612x612&w=0&k=20&c=6lUiVCMelCFXj9BrgyaRD4UoSdq-dozdvDyKMOboALs=",
+    "category": "Comfort"
+  },
+  {
+    "id": 18,
+    "serviceName": "Puppy Potty Training (Indoor)",
+    "providerName": "CleanPaws Academy",
+    "providerEmail": "training@cleanpaws.com",
+    "price": 40,
+    "rating": 4.7,
+    "slotsAvailable": 4,
+    "description": "Specialized training for puppies to manage bathroom needs indoors during extreme cold.",
+    "image": "https://images.unsplash.com/photo-1620021029770-6fd5abff5197?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZG9nJTIwUHVwcHklMjBQb3R0eSUyMFRyYWluaW5nJTIwKEluZG9vcil8ZW58MHx8MHx8fDA%3D",
+    "category": "Training"
+  },
+  {
+    "id": 19,
+    "serviceName": "Reflective Winter Gear Sale & Fitting",
+    "providerName": "NightSafe Petwear",
+    "providerEmail": "info@nightsafepet.com",
+    "price": 15,
+    "rating": 4.5,
+    "slotsAvailable": 8,
+    "description": "Fitting of reflective vests and collars for safe, low-light winter walks.",
+    "image": "https://images.unsplash.com/photo-1743706328270-d73f815b6a40?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGNhdCUyMFJlZmxlY3RpdmUlMjBXaW50ZXIlMjBHZWFyJTIwU2FsZSUyMCUyNiUyMEZpdHRpbmd8ZW58MHx8MHx8fDA%3D",
+    "category": "Clothing"
+  },
+  {
+    "id": 20,
+    "serviceName": "De-icing Paw Wash Station Setup",
+    "providerName": "MudNoMore Solutions",
+    "providerEmail": "contact@mudnomore.com",
+    "price": 25,
+    "rating": 4.8,
+    "slotsAvailable": 5,
+    "description": "Setting up an easy-access station near the door for rinsing salt and de-icing chemicals off paws.",
+    "image": "https://images.unsplash.com/photo-1648854947054-432af7faca56?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZG9nJTIwRGUtaWNpbmclMjBQYXclMjBXYXNoJTIwU3RhdGlvbiUyMFNldHVwfGVufDB8fDB8fHww",
+    "category": "Grooming"
   }
+  
 ]
 
 
