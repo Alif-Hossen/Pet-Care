@@ -31,7 +31,7 @@ const Card = ({ data }) => {
 
     return (
         <motion.div
-            className="group relative w-[340px] mx-auto rounded-2xl overflow-hidden shadow-lg cursor-pointer"
+            className="group relative w-[400px]  mx-auto rounded-2xl overflow-hidden shadow-lg cursor-pointer"
             style={{ rotateX, rotateY, perspective: 1000 }}
             onMouseMove={handleMouseMove}
             onMouseLeave={resetAnimation}
