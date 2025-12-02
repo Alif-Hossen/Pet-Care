@@ -27,6 +27,36 @@ const BookNow = () => {
 
         <form onSubmit={handleSubmit} className="space-y-5">
 
+          {/* Name */}
+          <div className="group">
+            <label className="text-gray-700 font-semibold">Name</label>
+            <input
+              type="text"
+              placeholder="Enter your Name"
+              className="
+                input w-full mt-1 
+                bg-gray-100 border-gray-300 
+                focus:border-black focus:ring-1
+                transition-all duration-300
+              "
+            />
+          </div>
+
+          {/* SERVICE */}
+          <div className="group">
+            <label className="text-gray-700 font-semibold">Service</label>
+            <input
+              type="number"
+              placeholder="Enter Number Of Services"
+              className="
+                input w-full mt-1 
+                bg-gray-100 border-gray-300 
+                focus:border-black focus:ring-1
+                transition-all duration-300
+              "
+            />
+          </div>
+
           {/* Email */}
           <div className="group">
             <label className="text-gray-700 font-semibold">Email</label>

@@ -41,14 +41,22 @@ const router = createBrowserRouter(
                     element: <Service></Service>,
                     hydrateFallbackElement: <Loading></Loading>
                 },
+                // {
+                //     path: '/cardDetails/:id',
+                //     element: <PrivateRoute>
+                //         <CardDetails />
+                //     </PrivateRoute>,
+                //     loader: () => fetch('/allServices.json'),
+                //     hydrateFallbackElement: <Loading></Loading>
+                // },
                 {
                     path: '/cardDetails/:id',
-                    element: <PrivateRoute>
-                        <CardDetails />
-                    </PrivateRoute>,
+                    element:
+                        <CardDetails />,
                     loader: () => fetch('/allServices.json'),
                     hydrateFallbackElement: <Loading></Loading>
                 },
+
                 {
                     path: '/login',
                     element: <Login></Login>
@@ -59,15 +67,17 @@ const router = createBrowserRouter(
                 },
                 {
                     path: '/bookNow',
-                    element: <BookNow></BookNow>
+                    element: <PrivateRoute>
+                        <BookNow></BookNow>
+                    </PrivateRoute>
                 },
                 {
                     path: '/myProfile',
                     element: <MyProfile></MyProfile>
                 },
                 {
-                    path:'/forgot-password',
-                    element:<ForgotPassword></ForgotPassword>
+                    path: '/forgot-password',
+                    element: <ForgotPassword></ForgotPassword>
                 }
 
             ]
