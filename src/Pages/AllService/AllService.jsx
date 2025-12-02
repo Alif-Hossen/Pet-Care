@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const AllService = ({ data }) => {
-    const { id, image, serviceName, rating, price } = data;
+    const { id, image, serviceName, rating, price,category } = data;
 
     return (
         <div className="group relative w-[350px] md:mx-0 mx-auto rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 mb-10">
@@ -27,8 +27,12 @@ const AllService = ({ data }) => {
                     </span>
                 </div>
 
+                <div>
+                    <button className='btn btn-outline rounded-4xl'><span className='font-bold text-orange-500'>Category : </span> <span className='text-black font-semibold'>{category}</span></button>
+                </div>
+
                 <NavLink to={`/cardDetails/${id}`}>
-                    <button className="w-full mt-4 bg-white/20 hover:bg-orange-500 backdrop-blur-md text-white font-semibold py-2 rounded-xl transition-all duration-300 shadow-lg">
+                    <button className="w-full mt-4 bg-orange-500 hover:bg-blue-500 backdrop-blur-md text-white font-semibold py-2 rounded-xl transition-all duration-300 shadow-lg">
                         View Details
                     </button>
                 </NavLink>
