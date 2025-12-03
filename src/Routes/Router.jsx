@@ -12,6 +12,7 @@ import MyProfile from "../Pages/MyProfile/MyProfile";
 import Vets from "../Pages/Vets/Vets";
 import ForgotPassword from "../Pages/ForgetPassword/ForgetPassword";
 import Loading from "../Pages/Loading/Loading";
+import AboutUs from "../Components/AboutUs/AboutUs";
 
 const router = createBrowserRouter(
     [
@@ -78,6 +79,10 @@ const router = createBrowserRouter(
                 {
                     path: '/forgot-password',
                     element: <ForgotPassword></ForgotPassword>
+                },
+                {
+                    path: '/aboutUs',
+                    element: <AboutUs></AboutUs>
                 }
 
             ]

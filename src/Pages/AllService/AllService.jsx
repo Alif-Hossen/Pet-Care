@@ -32,7 +32,7 @@ const AllService = ({ data }) => {
                 </div>
 
                 <NavLink to={`/cardDetails/${id}`}>
-                    <button className="w-full mt-4 bg-orange-500 hover:bg-blue-500 backdrop-blur-md text-white font-semibold py-2 rounded-xl transition-all 
+                    <button className="w-full mt-4 bg-orange-500 hover:bg-primary backdrop-blur-md text-white font-semibold py-2 rounded-xl transition-all 
                     duration-300 shadow-lg">
                         View Details
                     </button>
