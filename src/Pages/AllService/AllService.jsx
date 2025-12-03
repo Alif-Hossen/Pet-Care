@@ -27,7 +27,7 @@ const AllService = ({ data }) => {
                     </span>
                 </div>
 
-                <div>
+                <div className='mt-2'>
                     <button className='btn  bg-white rounded-4xl hover:bg-gray-400'><span className='font-bold text-orange-500'>Category : </span> <span className='text-black font-bold'>{category}</span></button>
                 </div>
 
