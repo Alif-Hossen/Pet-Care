@@ -7,7 +7,7 @@ import { AiTwotoneMail } from 'react-icons/ai';
 const Footer = () => {
     return (
         <footer className="bg-gray-100 text-gray-700 py-16">
-            <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-10">
+            <div className=" xl:mx-auto xl:pl-4 px-4 grid grid-cols-1 md:grid-cols-4 gap-10 xl:max-w-[1700px] bg-gray-300 xl:h-[300px] items-center rounded-2xl py-4 ml-2 mr-2">
 
                 <div className="flex flex-col items-center md:items-start">
                     <img

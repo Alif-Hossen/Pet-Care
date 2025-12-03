@@ -23,7 +23,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className="flex flex-col md:flex-row justify-between items-center my-4 max-w-[1350px] mx-auto px-4">
+        <div className="flex flex-col md:flex-row justify-between items-center my-4 max-w-[1700px] mx-auto px-4 bg-gray-300 rounded-2xl py-2">
             <div className="flex items-center gap-2">
                 <img className="h-[60px] w-[60px] md:h-[70px] md:w-[70px] rounded-full" src={navIcon} alt="" />
                 <h3 className="text-lg md:text-xl font-semibold text-green-700">Pet Care</h3>
