@@ -31,7 +31,7 @@ const Card = ({ data }) => {
 
     return (
         <motion.div
-            className="group relative w-[400px]  mx-auto rounded-2xl overflow-hidden shadow-lg cursor-pointer"
+            className="group relative lg:w-[350px] xl:w-[400px] sm:w-[340px] w-[560px] mx-auto rounded-2xl overflow-hidden shadow-lg cursor-pointer "
             style={{ rotateX, rotateY, perspective: 1000 }}
             onMouseMove={handleMouseMove}
             onMouseLeave={resetAnimation}
@@ -72,7 +72,7 @@ const Card = ({ data }) => {
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                     >
-                        View All Services
+                        View All Service
                     </motion.button>
                 </NavLink>
             </motion.div>
