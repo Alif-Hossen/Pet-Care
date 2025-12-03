@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaPaw, FaHeart, FaShieldAlt, FaUsers, FaLightbulb, FaAward } from 'react-icons/fa';
 import { MdOutlinePets } from 'react-icons/md';
+import { NavLink } from 'react-router';
 
 const AboutUs = () => {
     return (
@@ -105,9 +106,9 @@ const AboutUs = () => {
                     <p className="text-xl mb-8">
                         Contact us today to learn more about our services and book an appointment.
                     </p>
-                    <button className="bg-white text-blue-600 hover:bg-blue-100 font-bold py-3 px-8 rounded-full text-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+                    <NavLink to="/service" className="bg-white text-blue-600 hover:bg-blue-100 font-bold py-3 px-8 rounded-full text-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
                         Get Started
-                    </button>
+                    </NavLink>
                 </div>
             </section>
         </div>
